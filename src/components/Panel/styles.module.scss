@@ -1,0 +1,34 @@
+.infoPanelContainer {
+    display: flex;
+    flex-direction: row;
+
+    span {
+        color: antiquewhite;
+        font-size: 0.5rem;
+        
+    }
+}
+
+
+
+.imgPanelContainer{
+
+    img{
+        max-width: 100px;
+
+
+    }
+
+}
+
+.contentPanel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+
+    img {
+        max-width: 30px;
+        max-height: 30px;
+        border-radius: 2rem;
+    }
+}
